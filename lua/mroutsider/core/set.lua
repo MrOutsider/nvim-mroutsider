@@ -1,3 +1,4 @@
+-- Core Settings (Start) --
 -- Turn on line numbering.
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -23,3 +24,4 @@ vim.opt.updatetime = 50
 --vim.opt.colorcolumn = "120"
 
 vim.g.mapleader = " "
+-- Core Settings (End) --
