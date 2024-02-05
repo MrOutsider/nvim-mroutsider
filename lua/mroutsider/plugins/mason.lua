@@ -1,4 +1,5 @@
 return {
 	"williamboman/mason.nvim",
-	tag = "v1.10.0"
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig"
 }

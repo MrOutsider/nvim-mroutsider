@@ -9,4 +9,4 @@ require("mroutsider.plugin_configs.kanagawa")
 -- Plugin Configs
 require("mroutsider.plugin_configs.nvim-treesitter")
 require("colorizer").setup() -- Attaches to every FileType mode "Shows colors".
-require("mason").setup()
+require("mroutsider.plugin_configs.mason")
