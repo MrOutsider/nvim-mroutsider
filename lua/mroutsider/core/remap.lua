@@ -1,3 +1,4 @@
+local vim = vim
 -- Core Remap (Start) --
 vim.keymap.set("n", "<leader>fe", vim.cmd.Ex)
 
