@@ -1,4 +1,5 @@
 -- Core Settings (Start) --
+local vim = vim
 -- Turn on line numbering.
 vim.opt.number = true
 vim.opt.relativenumber = true
