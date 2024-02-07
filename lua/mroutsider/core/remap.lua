@@ -1,6 +1,7 @@
 local vim = vim
 -- Core Remap (Start) --
 vim.keymap.set("n", "<leader>fe", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>ft", vim.cmd.retab)
 
 -- Yank to system clipboard
 vim.keymap.set("n", "<leader>y", "\"+y")
