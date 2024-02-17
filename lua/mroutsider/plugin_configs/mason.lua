@@ -7,7 +7,8 @@ require("mason-lspconfig").setup {
         "pylsp",
         "cssls",
         "html",
-        "jsonls"
+        "jsonls",
+        "emmet_ls"
     }
 }
 require("lspconfig").clangd.setup {}
@@ -17,3 +18,4 @@ require("lspconfig").pylsp.setup {}
 require("lspconfig").cssls.setup {}
 require("lspconfig").html.setup {}
 require("lspconfig").jsonls.setup {}
+require("lspconfig").emmet_ls.setup {}
