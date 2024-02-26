@@ -13,7 +13,8 @@ require "nvim-treesitter.configs".setup {
     "markdown",
     "css",
     "html",
-    "json"
+    "json",
+    "xml"
 },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)

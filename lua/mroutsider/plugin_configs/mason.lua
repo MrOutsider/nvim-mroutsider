@@ -8,7 +8,8 @@ require("mason-lspconfig").setup {
         "cssls",
         "html",
         "jsonls",
-        "emmet_ls"
+        "emmet_ls",
+        "lemminx"
     }
 }
 require("lspconfig").clangd.setup {}
@@ -19,3 +20,4 @@ require("lspconfig").cssls.setup {}
 require("lspconfig").html.setup {}
 require("lspconfig").jsonls.setup {}
 require("lspconfig").emmet_ls.setup {}
+require("lspconfig").lemminx.setup {}
